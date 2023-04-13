@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Predict Cancelation Rate for Next Month</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Predict Cancelation Rate for Next Month</h1>
+    <div>
+      <label for="booking_confirm">Booking Confirm:</label>
+      <input type="number" id="booking_confirm" />
+    </div>
+    <div>
+      <label for="booking_cancel">Booking Cancel:</label>
+      <input type="number" id="booking_cancel" />
+    </div>
+    <div>
+      <button onclick="predict()">Predict</button>
+    </div>
+    <div>
+      <h2>Cancelation Rate Prediction:</h2>
+      <p id="prediction"></p>
+    </div>
+  </body>
+</html>
